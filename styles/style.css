@@ -129,3 +129,48 @@ nav ul{
     gap: 8px;
 
 }
+
+/* notes section part */
+.card-container{
+    margin: 30px 0;
+}
+
+.card-container h1{
+    font-size:52px;
+    font-weight: bold;
+    text-align: center;
+     margin-top: 50px;
+     margin-bottom: 10px;
+}
+
+.card-container p {
+    color: gray;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 24px 20px ;
+    border-radius: 8px;
+    box-shadow: 2px 2px 18px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.card img{
+    background-color: rgba(249, 85, 85, 1);
+    padding: 15px;
+    border-radius: 100%;
+}
+
