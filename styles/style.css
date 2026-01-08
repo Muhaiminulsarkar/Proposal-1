@@ -4,15 +4,17 @@
     box-sizing: border-box;
 }
 
-/* shared styles */
+
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 
+
 .primary-clr{
     color: #209952;
 }
+
 
 .box-shape{
     max-width: 1360px;
@@ -29,6 +31,7 @@
     font-weight: 500;
 }
 
+
 .button-white{
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid white;
@@ -39,11 +42,19 @@
     font-weight: 500;
 }
 
+
+
 /* navbar part */
 .navbar-container{
     display: flex;
     justify-content: space-between;
     padding: 15px 0;
+
+}
+
+nav{
+    border: 2px solid black;
+
 }
 
 nav li {
@@ -63,6 +74,7 @@ nav ul{
 .nav-button {
     display: flex;
     align-items: center;
+
 }
 
 
@@ -119,4 +131,5 @@ nav ul{
     justify-content: center;
     align-items: center;
     gap: 8px;
+
 }
