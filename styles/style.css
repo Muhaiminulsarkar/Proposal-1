@@ -47,6 +47,10 @@ button:hover {
   color: white;
 }
 
+a:hover {
+  color: #f44336;
+}
+
 /* navbar part */
 .navbar-container{
     display: flex;
@@ -54,7 +58,6 @@ button:hover {
     padding: 15px 0;
 
 }
-
 
 nav li {
     list-style: none;
