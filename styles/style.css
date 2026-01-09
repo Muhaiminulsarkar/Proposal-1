@@ -174,3 +174,48 @@ nav ul{
     border-radius: 100%;
 }
 
+/* solution part */
+
+.solution-container{
+    display: flex;
+    align-items: center; 
+    gap: 60px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.solution-image img{
+    border-radius: 12px;
+}
+
+.solution-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.solution-sub {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.solution-content h1 {
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.solution-des{
+    color: gray;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.solution-link div{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
